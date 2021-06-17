@@ -1,0 +1,31 @@
+.card{
+
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-gap: 5px;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  font-size: 20px;
+
+  /* margin: 10px;
+  text-align: justify;
+  height: 200px;
+  
+  align-content: center;
+  width: fit-content;
+  block-size: auto; */
+ 
+  
+}
+
+
+
+
+
+
+
+
+
+
