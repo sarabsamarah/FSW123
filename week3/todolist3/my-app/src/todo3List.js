@@ -20,13 +20,7 @@ class Todo3List extends React.Component{
         return (
             <div className ="todo3Div">
                 <div>
-                    <input
-                    type="checkbox"
-                    className= "cb2"
-                    id={this.props.id}
-                    onClick={() => {this.completeTodo()}}
-                    checked={this.props.isCompleted}
-                    />
+                    <input type="checkbox"className= "cb2" id={this.props.id} onClick={() => {this.completeTodo()}} checked={this.props.isCompleted}/>
                 </div>
                 <div>
                     <label style={styleComplete} for={this.props.id}> {this.props.text} </label>

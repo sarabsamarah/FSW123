@@ -2,12 +2,25 @@
   background-color: black;
   color: blanchedalmond;
   font-family: Verdana;
+  text-align: start;
 }
 
 .Todo3Span {
 font-size: 65px;
 color: midnightblue;
-text-decoration-thickness: 20px;
+text-decoration-thickness: 5px;
 text-align: center;
+
 }
 
+
+
+.checkbox{
+  display: inline-block;
+  background-color: orangered;
+}
+
+.cb2 {
+  display: inline-block;
+  background-color: orangered;
+}
