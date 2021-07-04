@@ -1,0 +1,32 @@
+* {
+  background-color:seashell;
+  color: black;
+  font-family: Verdana;
+  align-items: inline;
+}
+
+.Todo3Span {
+font-size: 20px;
+color: midnightblue;
+text-decoration-thickness: 6px;
+
+
+align-items: inline;
+}
+
+.todo3Div {
+  align-items: baseline;
+}
+
+
+
+.checkbox{
+  display: inline-block;
+  
+
+
+}
+
+#cb2 {
+  align-items: flex-start;
+}
