@@ -1,0 +1,23 @@
+
+  img{
+    border:turquoise 5px solid;
+    height: fit-content;
+    width: fit-content;
+}
+
+.GiphyDiv{
+    align-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+    text-decoration: underline solid blue;
+    font-family: fantasy;
+    text-transform: inherit;
+}
+
+
+
