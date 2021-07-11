@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+.appContainer {
+  padding-top: 100px;
+  display:inline-flexbox;
+}
+.appHeader {
+  background-color:slategrey;
+  height: 100px;
+  color:indigo;
+  text-align: center;
+}
+.headerText {
+  padding: 1px;
+}
+
+.appFooter {
+  background-color:lightslategray;
+  height: 75px;
+  color:indigo;
+  text-align:end;
+}
+
+
+.done {
+  text-decoration: line-through;
+  color: #ACACAC;
+}
+.errorMsg {
+  text-align: center;
+}
+.right {
+  text-align: center;
+  align-items: center;
+}
+/* .blue {
+  color: #2B96FE;
+} */
+
+
+/* overrides
+.form-control {
+  border-radius: 0px;
+  border-color: #FFF !important;
+}
+.addBtn {
+  border-color: #FFF !important;
+} */
+
+* {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.table {
+  display: inline;
+}
