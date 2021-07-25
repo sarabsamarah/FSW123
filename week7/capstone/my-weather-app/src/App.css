@@ -1,0 +1,135 @@
+.app {
+    width: 89%;
+    height:89%;
+    background-color:lightgray;
+    align-self: center;
+    display: block;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    box-shadow: 9px 15px 30px black;
+    background-image: url("weather4.jpeg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: none;
+    color: whitesmoke;
+    font-family: Cambria;
+  }
+  
+  .app-title {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:mintcream;
+  }
+  
+  .app-title p {
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 3.5em;
+    color:darkblue;
+    align-items: left;
+  }
+  
+  input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    width: 50%;
+    height: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 5px solid darkslategrey;
+  }
+  
+  .location-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+  }
+  
+  .location-icon svg {
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    border: darkslategrey solid 4px;
+    border-radius: 10px;
+    color: black;
+    background-color: red;
+  }
+  
+  .notification {
+    background-color: white;  
+  }
+  
+  .notification p {
+    color: maroon;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .weather-container {
+    width: 100%;
+    height: 260px;
+    background-color: lightgray;
+    margin-top: 20px;
+  }
+  
+  .weather-icon {
+    width: 100%;
+    height: 128px;
+  }
+  
+  .weather-icon img {
+    display: block;
+    margin: 0 auto;    
+    width: 100px;
+    height: 118px;
+  }
+  
+  .temprature-value {
+    width: 100%;
+    height: 80px;
+    color: darkblue;
+  }
+  
+  .temprature-value p {
+    padding: 0;
+    margin: 0;
+    color: darkblue;
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  .temprature-value span {
+    color: darkblue;
+    font-size: 0.5em;
+  }
+  
+  .temprature-description p {
+    padding: 8px;
+    margin: 0;
+    color: darkblue;
+    text-align: center;
+    font-size: 1.2re;
+  }
+  
+  .location p {
+    padding: 0;
+    margin: 0;
+    color: darkblue;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  

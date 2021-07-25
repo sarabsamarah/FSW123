@@ -1,0 +1,23 @@
+What are four fundalmental parts of redux
+
+1. actions and action creators
+2. dispatchers 
+3. Reducers
+4. The Redux Store (single source of truth/client side database)
+
+index.js->application ----|--------------|Redux folder
+index.js                 movie.js        shows.js
+Store                   actions         actions
+combineReducer          Reducers        Reducer
+
+capstone 
+use either API or array of objects for in memeory storage 
+search google for online APIs
+Uses State data (useState)
+Uses React router and have at least 3 pages (like the blog)
+Contains at least 10 components
+Allows for at least 2 CRUD (Create, Read, Update, Delete) operations 
+UI responsive 
+Component structure is well oragized and thought pout 
+You may not use any CSS component library 
+
